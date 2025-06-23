@@ -26,6 +26,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace 'com.carnegie.gallerysaver'
+
     compileSdkVersion 30
 
     sourceSets {
